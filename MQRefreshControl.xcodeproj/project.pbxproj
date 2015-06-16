@@ -14,6 +14,7 @@
 		6899A26A1B1D7E040076867C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6899A2691B1D7E040076867C /* Images.xcassets */; };
 		6899A26D1B1D7E040076867C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6899A26B1B1D7E040076867C /* LaunchScreen.xib */; };
 		6899A2791B1D7E040076867C /* MQRefreshControlTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6899A2781B1D7E040076867C /* MQRefreshControlTests.m */; };
+		6899A2851B1D7E370076867C /* UIScrollView+MQRefreshControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 6899A2841B1D7E370076867C /* UIScrollView+MQRefreshControl.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		6899A2721B1D7E040076867C /* MQRefreshControlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MQRefreshControlTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6899A2771B1D7E040076867C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6899A2781B1D7E040076867C /* MQRefreshControlTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MQRefreshControlTests.m; sourceTree = "<group>"; };
+		6899A2831B1D7E370076867C /* UIScrollView+MQRefreshControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+MQRefreshControl.h"; sourceTree = "<group>"; };
+		6899A2841B1D7E370076867C /* UIScrollView+MQRefreshControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+MQRefreshControl.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,7 @@
 		6899A25B1B1D7E040076867C /* MQRefreshControl */ = {
 			isa = PBXGroup;
 			children = (
+				6899A2821B1D7E0D0076867C /* Lib */,
 				6899A2601B1D7E040076867C /* AppDelegate.h */,
 				6899A2611B1D7E040076867C /* AppDelegate.m */,
 				6899A2631B1D7E040076867C /* ViewController.h */,
@@ -117,6 +121,15 @@
 				6899A2771B1D7E040076867C /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6899A2821B1D7E0D0076867C /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				6899A2831B1D7E370076867C /* UIScrollView+MQRefreshControl.h */,
+				6899A2841B1D7E370076867C /* UIScrollView+MQRefreshControl.m */,
+			);
+			name = Lib;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -222,6 +235,7 @@
 				6899A2651B1D7E040076867C /* ViewController.m in Sources */,
 				6899A2621B1D7E040076867C /* AppDelegate.m in Sources */,
 				6899A25F1B1D7E040076867C /* main.m in Sources */,
+				6899A2851B1D7E370076867C /* UIScrollView+MQRefreshControl.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,7 +313,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -337,7 +351,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -350,6 +364,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MQRefreshControl/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -360,6 +375,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MQRefreshControl/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
