@@ -3,4 +3,4 @@
 
 使用方法
 ---
-![](http://f.picphotos.baidu.com/album/s%3D1600%3Bq%3D90/sign=cb1e95d0f8faaf5180e385b9bc64af9f/4bed2e738bd4b31c8204a94d82d6277f9e2ff80f.jpg)
+![](https://github.com/zx1262111739/GitHubImage/blob/master/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202015-06-16%20%E4%B8%8B%E5%8D%886.06.49.png)
